@@ -2,16 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MealWheel</title>
-    <script src="theMealDB.js"></script>
+    <title>WhatToCook</title>
+    <link rel="stylesheet" href="main.css">
+    <script type="module" src="main.js"></script>
 </head>
 <body>
 
     <div>
-        <h1>MealWheel</h1>
+        <h1>What to cook?</h1>
 
-        <button onclick="console.log(get_random())">Random Meal</button>
+        <button id="button_show_random">Random Meal</button>
     </div>
+
+    <div id="meal_container" class="hidden">
+        <h1 id="meal_title"></h1>
+        <h4>Category: <span id="meal_category"></span></h4>
+        <h4>Origin: <span id="meal_area"></span></h4>
+        <br>
+
+        <img id="meal_image" src="" />
+        <br>
+
+        <div>
+            <table style="width:100%" id="meal_ingredients">
+
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Measure</th>
+                </tr>
+
+            </table>
+        </div>
+        <br>
+
+        <div>
+            <h2>Instructions</h2>
+            <p id="meal_instructions"></p>
+        </div>
+
+
+    </div>
+
 
 </body>
 </html>

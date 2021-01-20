@@ -1,0 +1,11 @@
+.meal_container {
+    max-width: 700px; // width of images
+}
+
+.hidden {
+    display: none;
+}
+
+table tr th{
+    text-align: left;
+}

@@ -9,3 +9,8 @@
 table tr th{
     text-align: left;
 }
+
+.column {
+    max-width: 700px;
+    margin: 0 auto;
+}

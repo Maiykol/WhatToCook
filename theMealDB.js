@@ -3,7 +3,7 @@
  * **/
 
 // last numer is API key, 1 is public testing key, can be used for low amount of requests but might be removed
-const API = 'http://www.themealdb.com/api/json/v1/1/';
+const API = 'https://www.themealdb.com/api/json/v1/1/';
 
 // load random meal
 const RANDOM = 'random.php';

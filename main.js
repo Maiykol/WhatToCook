@@ -1,5 +1,7 @@
 import TheMealDB from "./theMealDB.mjs"
 
+console.log("loading js");
+
 function show_meal(meal) {
     const meal_container = document.getElementById("meal_container");
     meal_container.classList.remove("hidden");
